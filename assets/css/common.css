@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "PoppinsMedium";
+    src: url("../fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("../fonts/Poppins/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsSemiBold";
+    src: url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face{
+    font-family: "PoppinsLightSemiBold";
+    src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+
+
+
+:root {
+    --msc-font-regular: "PoppinsRegular";
+    --msc-font-bold: "PoppinsBold";
+    --msc-font-medium: "PoppinsMedium";
+    --msc-theme-font-light-bold:"PoppinsLightSemiBold";
+    --msc-font-semi-bold: "PoppinsSemiBold";
+    --msc-theme-dark: #000000;
+    --msc-theme-dark-hover: #0e0e0e;
+    --msc-theme-light-text: #555555;
+    --msc-theme-primary: #fbae15;
+    --msc-theme-primary-hover: #eba10c;
+    --msc-theme-blue: #0454b7;
+    --msc-theme-blue-hover: #0a50a6;
+    --msc-theme-warning: #fad903;
+    --msc-theme-warning-hover: #f9c118;
+    --msc-theme-info: #1574ab;
+    --msc-theme-info-hover: #2981B4;
+    --msc-theme-danger: #CB2128;
+    --msc-theme-danger-logout: #ff2a1a;
+    --msc-theme-danger-hover: #b4191e;
+    --msc-theme-success: #00a444;
+    --msc-theme-success-hover: #059340;
+    --msc-theme-light: #BBBDBF;
+    --msc-theme-transparent: #ffffff00;
+    --msc-bg-scheme-top-bar: #0c7ca5;
+    --msc-theme-white: #fff;
+    --msc-toast-success: #06c516ec;
+    --msc-toast-danger: #c52f06ec;
+    --msc-toast-warning: #ffd900ec;
+    --msc-toast-primary: #2e579aec;
+    --msc-btn-warning-gradient: linear-gradient(45deg, var(--msc-theme-primary), var(--msc-theme-primary-hover));
+    --msc-btn-dark-gradient: linear-gradient(45deg, var(--msc-theme-dark), var(--msc-theme-dark-hover));
+    --msc-btn-blue-gradient: linear-gradient(45deg, var(--msc-theme-blue), var(--msc-theme-blue-hover));
+    --msc-btn-danger-gradient: linear-gradient(45deg, var(--msc-theme-danger), var(--msc-theme-danger-hover));
+    --msc-transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+
